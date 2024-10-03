@@ -1,5 +1,5 @@
 <?php
-function factorielWhile($n) {
+function factorielWhile($n) {       /*Pour cette partie je me suis aider d'un exercice en C++ que j'avais fait pour apprendre à coder */
     $result = 1;
     $i = $n;
     while ($i > 1) {
