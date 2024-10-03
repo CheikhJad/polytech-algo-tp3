@@ -1,5 +1,5 @@
 <?php
-function isInArray($tab, $what) {
+function isInArray($tab, $what) {                 /*Pour cette partie j'ai eu de l'aide de mon frère*/
     for ($i = 0; $i < count($tab); $i++) {
         if ($tab[$i] == $what) {
             return $i;
